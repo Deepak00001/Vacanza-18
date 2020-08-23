@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%;
+	height: 90vh;
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.5);
+}
+nav{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .icon{
+	width: 5%;
+	text-align: center;
+}
+nav a{
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+main{
+	width: 100%;
+	height: 80vh;
+	display: flex-column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+.logo{
+	margin-top: 45px;
+	margin-bottom: 20px;s
+}
+button{
+	margin-top: 20px;
+	border-radius: 1px solid black;
+}
+.btnone{
+	padding: 10px 30px;
+}
+.btntwo{
+	padding: 10px 30px;a
+
+}
+button a{
+	text-decoration: none;
+	color: black;
+}
